@@ -1,0 +1,27 @@
+1638999508729	geckodriver	INFO	Listening on 127.0.0.1:58195
+1638999511816	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58196" "-no-remote" "-profile" "C:\\Users\\TULPAR\\AppData\\Local\\Temp\\rust_mozprofileEP1aRE"
+1638999512134	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TULPAR\\AppData\\Local\\Temp\\rust_mozprofileEP1aRE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58196/devtools/browser/c860eb6f-9b60-442d-bbe4-4df7507b99e9
+1638999514115	Marionette	INFO	Listening on port 58201
+1638999514499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.hepsiburada.com/vBvKnoounD9VgfHTyct-WR2yUPM/um3pw4LJEptE/ahssI1QC/OR9LYj/4sLhoB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://static.hepsiburada.net/assets/sfstatic/v.1.4.945/project/assets/3-f8a18b64adfecbe96be3.js, line 1: TypeError: navigator.connection is undefined
+JavaScript error: https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C3VQBK9U9OSLU1GC7G7G&lib=ttq, line 3: ChunkLoadError: Loading chunk 1 failed.
+(error: https://analytics.tiktok.com/i18n/pixel/identify.js)
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://static.hepsiburada.net/assets/sfstatic/v.1.4.945/project/assets/3-f8a18b64adfecbe96be3.js, line 1: TypeError: navigator.connection is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lpsW2_ffPYTZ8rZJjb0UUxqN4MuIngUyqdH9Px88Rrc.js line 1 > eval line 2955 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lpsW2_ffPYTZ8rZJjb0UUxqN4MuIngUyqdH9Px88Rrc.js line 1 > eval line 5433 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.hepsiburada.com/kampanyalar/cok-satan-kitaplar, line 25: TypeError: navigator.connection is undefined
+JavaScript error: https://images.hepsiburada.net/shipping/voltran/build/v.143548/project/assets/shippingLocation-standart.js, line 2: Error: timeout of 1000ms exceeded
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.hepsiburada.com/iz-biraktigin-kadar-varsin-esra-ezmeci-p-HBCV00000XWMVR?magaza=Hepsiburada, line 24: TypeError: navigator.connection is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lpsW2_ffPYTZ8rZJjb0UUxqN4MuIngUyqdH9Px88Rrc.js line 1 > eval line 3785 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lpsW2_ffPYTZ8rZJjb0UUxqN4MuIngUyqdH9Px88Rrc.js line 1 > eval line 2623 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1638999730255	Marionette	INFO	Stopped listening on port 58201
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211209 00:38:28.399" rpa="false" schemaversion="2">
+<suite id="s1" name="TC2" source="C:\Users\TULPAR\Desktop\Ders1\tests\TC2.robot">
+<test id="s1-t1" name="Case 1 Login">
+<kw name="Start">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211209 00:38:28.708" level="INFO">Opening browser 'firefox' to base url 'https://www.hepsiburada.com/'.</msg>
+<msg timestamp="20211209 00:38:28.709" level="INFO">Firefox driver log is always forced to to: C:\Users\TULPAR\Desktop\Ders1\geckodriver-1.log</msg>
+<status status="PASS" starttime="20211209 00:38:28.708" endtime="20211209 00:38:36.639"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20211209 00:38:36.640" endtime="20211209 00:38:36.897"/>
+</kw>
+<status status="PASS" starttime="20211209 00:38:28.708" endtime="20211209 00:38:36.897"/>
+</kw>
+<doc>Bowserı Açıyorum</doc>
+<status status="PASS" starttime="20211209 00:38:28.707" endtime="20211209 00:38:36.898"/>
+</test>
+<test id="s1-t2" name="Case 2 Login olma">
+<kw name="Click Login">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:myAccount</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211209 00:38:36.901" level="INFO">Clicking element 'id:myAccount'.</msg>
+<status status="PASS" starttime="20211209 00:38:36.900" endtime="20211209 00:38:37.985"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:login</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211209 00:38:37.986" level="INFO">Clicking element 'id:login'.</msg>
+<status status="PASS" starttime="20211209 00:38:37.985" endtime="20211209 00:38:38.769"/>
+</kw>
+<kw name="Wait Until Element Contains" library="SeleniumLibrary">
+<arg>id:btnLogin</arg>
+<arg>Giriş yap</arg>
+<arg>15</arg>
+<doc>Waits until the element ``locator`` contains ``text``.</doc>
+<status status="PASS" starttime="20211209 00:38:38.770" endtime="20211209 00:38:41.234"/>
+</kw>
+<status status="PASS" starttime="20211209 00:38:36.900" endtime="20211209 00:38:41.234"/>
+</kw>
+<kw name="LoginNew">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:username</arg>
+<arg>${User}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211209 00:38:41.236" level="INFO">Typing text 'guneycan.test@gmail.com' into text field 'name:username'.</msg>
+<status status="PASS" starttime="20211209 00:38:41.235" endtime="20211209 00:38:41.371"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>id:btnLogin</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20211209 00:38:41.371" level="INFO">Clicking button 'id:btnLogin'.</msg>
+<status status="PASS" starttime="20211209 00:38:41.371" endtime="20211209 00:38:41.613"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>${Delay}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211209 00:38:46.622" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20211209 00:38:41.613" endtime="20211209 00:38:46.622"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${Pass}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211209 00:38:46.622" level="INFO">Typing text 'Test1234' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20211209 00:38:46.622" endtime="20211209 00:38:46.666"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>id:btnEmailSelect</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20211209 00:38:46.666" level="INFO">Clicking button 'id:btnEmailSelect'.</msg>
+<status status="PASS" starttime="20211209 00:38:46.666" endtime="20211209 00:38:46.900"/>
+</kw>
+<status status="PASS" starttime="20211209 00:38:41.235" endtime="20211209 00:38:46.901"/>
+</kw>
+<doc>Login Oluyorum</doc>
+<status status="PASS" starttime="20211209 00:38:36.899" endtime="20211209 00:38:46.901"/>
+</test>
+<test id="s1-t3" name="Case 3 Katagoriye gitme">
+<kw name="Catagory">
+<kw name="Sleep" library="BuiltIn">
+<arg>${Delay}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211209 00:38:51.917" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20211209 00:38:46.903" endtime="20211209 00:38:51.917"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://div/ul/li[last()]/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211209 00:38:51.917" level="INFO">Clicking element 'xpath://div/ul/li[last()]/span'.</msg>
+<status status="PASS" starttime="20211209 00:38:51.917" endtime="20211209 00:38:52.211"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>${Delay}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211209 00:38:57.222" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20211209 00:38:52.211" endtime="20211209 00:38:57.222"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[contains(text(), 'Çok Satanlar')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211209 00:38:57.223" level="INFO">Clicking element 'xpath://*[contains(text(), 'Çok Satanlar')]'.</msg>
+<status status="PASS" starttime="20211209 00:38:57.222" endtime="20211209 00:39:00.210"/>
+</kw>
+<status status="PASS" starttime="20211209 00:38:46.902" endtime="20211209 00:39:00.210"/>
+</kw>
+<doc>Kitap Katagorisinde Çok Satanlara Gidiyorum</doc>
+<status status="PASS" starttime="20211209 00:38:46.901" endtime="20211209 00:39:00.211"/>
+</test>
+<test id="s1-t4" name="Case 4 Sepete Urun Ekleme">
+<kw name="Sepete Ekle">
+<kw name="Sleep" library="BuiltIn">
+<arg>${Delay}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211209 00:39:05.214" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20211209 00:39:00.213" endtime="20211209 00:39:05.214"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://div/figure</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211209 00:39:05.214" level="INFO">Clicking element 'xpath://div/figure'.</msg>
+<status status="PASS" starttime="20211209 00:39:05.214" endtime="20211209 00:39:07.763"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>id:addToCart</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20211209 00:39:07.764" level="INFO">Clicking button 'id:addToCart'.</msg>
+<status status="PASS" starttime="20211209 00:39:07.763" endtime="20211209 00:39:08.157"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>${Delay}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211209 00:39:13.168" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20211209 00:39:08.157" endtime="20211209 00:39:13.168"/>
+</kw>
+<status status="PASS" starttime="20211209 00:39:00.213" endtime="20211209 00:39:13.169"/>
+</kw>
+<doc>Listedeki İlk Kitabı Sepete Ekliyorm</doc>
+<status status="PASS" starttime="20211209 00:39:00.212" endtime="20211209 00:39:13.171"/>
+</test>
+<test id="s1-t5" name="Case 5 Sepete Git">
+<kw name="Sepete Git">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[text()='Sepete git']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211209 00:39:13.176" level="INFO">Clicking element 'xpath://*[text()='Sepete git']'.</msg>
+<status status="PASS" starttime="20211209 00:39:13.176" endtime="20211209 00:39:14.547"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>${Delay}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211209 00:39:19.558" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20211209 00:39:14.547" endtime="20211209 00:39:19.558"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>id:continue_step_btn</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20211209 00:39:19.558" level="INFO">Clicking button 'id:continue_step_btn'.</msg>
+<status status="PASS" starttime="20211209 00:39:19.558" endtime="20211209 00:39:19.813"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>${Delay}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211209 00:39:24.829" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20211209 00:39:19.814" endtime="20211209 00:39:24.829"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>id:continue_step_btn</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20211209 00:39:24.830" level="INFO">Clicking button 'id:continue_step_btn'.</msg>
+<status status="PASS" starttime="20211209 00:39:24.829" endtime="20211209 00:39:25.080"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>${Delay}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211209 00:39:30.088" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20211209 00:39:25.081" endtime="20211209 00:39:30.088"/>
+</kw>
+<status status="PASS" starttime="20211209 00:39:13.176" endtime="20211209 00:39:30.088"/>
+</kw>
+<doc>Sepete Gidiyorum</doc>
+<status status="PASS" starttime="20211209 00:39:13.175" endtime="20211209 00:39:30.089"/>
+</test>
+<test id="s1-t6" name="Case 6 Odeme Araci Secme">
+<kw name="Aninda Havele">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://h3[text()='Anında Havale']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211209 00:39:30.091" level="INFO">Clicking element 'xpath://h3[text()='Anında Havale']'.</msg>
+<status status="PASS" starttime="20211209 00:39:30.091" endtime="20211209 00:39:30.396"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://div[@class='sardesPaymentPage-MoneyTransfer-bank_description']/p[text()='İş Bankası']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211209 00:39:30.398" level="INFO">Clicking element 'xpath://div[@class='sardesPaymentPage-MoneyTransfer-bank_description']/p[text()='İş Bankası']'.</msg>
+<status status="PASS" starttime="20211209 00:39:30.397" endtime="20211209 00:39:30.638"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>id:continue_step_btn</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20211209 00:39:30.638" level="INFO">Clicking button 'id:continue_step_btn'.</msg>
+<status status="PASS" starttime="20211209 00:39:30.638" endtime="20211209 00:39:30.875"/>
+</kw>
+<status status="PASS" starttime="20211209 00:39:30.090" endtime="20211209 00:39:30.876"/>
+</kw>
+<doc>Ödeme Yönemi olarak "Anında Havale" Seçiyorum</doc>
+<status status="PASS" starttime="20211209 00:39:30.090" endtime="20211209 00:39:30.876"/>
+</test>
+<test id="s1-t7" name="Case 7 Banka Kontrol">
+<kw name="Banka Kontrol">
+<kw name="Wait Until Element Contains" library="SeleniumLibrary">
+<arg>xpath://*[text()='İş Bankası']</arg>
+<arg>İş Bankası</arg>
+<arg>${Delay}</arg>
+<doc>Waits until the element ``locator`` contains ``text``.</doc>
+<status status="PASS" starttime="20211209 00:39:30.878" endtime="20211209 00:39:31.321"/>
+</kw>
+<status status="PASS" starttime="20211209 00:39:30.878" endtime="20211209 00:39:31.322"/>
+</kw>
+<doc>Bankaların aynı olduğunu kontrol ediyorum...</doc>
+<status status="PASS" starttime="20211209 00:39:30.877" endtime="20211209 00:39:31.322"/>
+</test>
+<status status="PASS" starttime="20211209 00:38:28.400" endtime="20211209 00:39:31.324"/>
+</suite>
+<statistics>
+<total>
+<stat pass="7" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="7" fail="0" skip="0" id="s1" name="TC2">TC2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
