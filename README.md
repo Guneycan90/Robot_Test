@@ -11,4 +11,5 @@ Otomasyon konusundaki eksikliklerim dolayısıyla eksik veya hatalı bir yüklem
 https://youtu.be/gAasWEkiEiU
 
 Saygılarımla
+
 Güneycan KARAÇORA
